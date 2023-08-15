@@ -1,0 +1,10 @@
+General workflow of using git with github
+
+#If remote repository is already created on github
+
+1. Initialize remote repository: git init -b main
+2. Add the files in local repository and stage for commit: git add .
+3. Commit the files that are staged in local repo: git commit -m "initial commit"
+4. Add local repo to GitHub using git: git remote add origin <REMOTE URL>
+5. Verify new remote URL: git remote -v
+6. Push changes from local repo to remote, github repo: git push origin main
